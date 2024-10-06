@@ -1,0 +1,7 @@
+C:\Users\Lenovo\source\repos\MicroservicesSolution\Consumer\bin\Debug\Consumer.exe.config
+C:\Users\Lenovo\source\repos\MicroservicesSolution\Consumer\bin\Debug\Consumer.exe
+C:\Users\Lenovo\source\repos\MicroservicesSolution\Consumer\bin\Debug\Consumer.pdb
+C:\Users\Lenovo\source\repos\MicroservicesSolution\Consumer\obj\Debug\Consumer.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\MicroservicesSolution\Consumer\obj\Debug\Consumer.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\MicroservicesSolution\Consumer\obj\Debug\Consumer.exe
+C:\Users\Lenovo\source\repos\MicroservicesSolution\Consumer\obj\Debug\Consumer.pdb

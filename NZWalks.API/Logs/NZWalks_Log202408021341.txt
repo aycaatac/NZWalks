@@ -1,0 +1,24 @@
+2024-08-02 13:41:18.416 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7284/api/walks - null null
+2024-08-02 13:41:18.428 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7284/api/walks - 404 0 null 12.6447ms
+2024-08-02 13:41:18.437 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7284/api/walks, Response status code: 404
+2024-08-02 13:41:26.706 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7284/api/regions - null null
+2024-08-02 13:41:26.708 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.RegionsController.GetAll (NZWalks.API)'
+2024-08-02 13:41:26.716 +03:00 [INF] Route matched with {action = "GetAll", controller = "Regions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller NZWalks.API.Controllers.RegionsController (NZWalks.API).
+2024-08-02 13:41:26.720 +03:00 [INF] GetAllRegions action method was invoked
+2024-08-02 13:41:26.723 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Code], [r].[Name], [r].[RegionImageUrl]
+FROM [Regions] AS [r]
+2024-08-02 13:41:26.726 +03:00 [INF] Finished request: [{"Id":"906cb139-415a-4bbb-a174-1a1faf9fb1f6","Code":"NSN","Name":"Nelson","RegionImageUrl":"https://images.pexels.com/photos/13918194/pexels-photo-13918194.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=1260\u0026h=750\u0026dpr=1"},{"Id":"f7248fc3-2585-4efb-8d1d-1c555f4087f6","Code":"AKL","Name":"Auckland","RegionImageUrl":"https://images.pexels.com/photos/5169056/pexels-photo-5169056.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=1260\u0026h=750\u0026dpr=1"},{"Id":"14ceba71-4b51-4777-9b17-46602cf66153","Code":"BOP","Name":"Bay Of Plenty","RegionImageUrl":null},{"Id":"6884f7d7-ad1f-4101-8df3-7a6fa7387d81","Code":"NTL","Name":"Northland","RegionImageUrl":null},{"Id":"f077a22e-4248-4bf6-b564-c7cf4e250263","Code":"STL","Name":"Southland","RegionImageUrl":null},{"Id":"cfa06ed2-bf65-4b65-93ed-c9d286ddb0de","Code":"WGN","Name":"Wellington","RegionImageUrl":"https://images.pexels.com/photos/4350631/pexels-photo-4350631.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=1260\u0026h=750\u0026dpr=1"}]
+2024-08-02 13:41:26.727 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NZWalks.API.Models.DTOs.RegionDto, NZWalks.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-02 13:41:26.728 +03:00 [INF] Executed action NZWalks.API.Controllers.RegionsController.GetAll (NZWalks.API) in 8.7869ms
+2024-08-02 13:41:26.729 +03:00 [INF] Executed endpoint 'NZWalks.API.Controllers.RegionsController.GetAll (NZWalks.API)'
+2024-08-02 13:41:26.730 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7284/api/regions - 200 null application/json; charset=utf-8 24.0591ms
+2024-08-02 13:41:32.276 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7284/api/walk - null null
+2024-08-02 13:41:32.278 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7284/api/walk - 404 0 null 2.1936ms
+2024-08-02 13:41:32.280 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7284/api/walk, Response status code: 404
+2024-08-02 13:41:40.973 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7284/api/Walks - null null
+2024-08-02 13:41:40.975 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7284/api/Walks - 404 0 null 2.6111ms
+2024-08-02 13:41:40.977 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7284/api/Walks, Response status code: 404
+2024-08-02 13:41:56.199 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7284/api/Walks - null 0
+2024-08-02 13:41:56.201 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7284/api/Walks - 404 0 null 2.5295ms
+2024-08-02 13:41:56.204 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7284/api/Walks, Response status code: 404

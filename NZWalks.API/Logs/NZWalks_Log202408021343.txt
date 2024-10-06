@@ -1,0 +1,38 @@
+2024-08-02 13:43:05.702 +03:00 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-02 13:43:05.939 +03:00 [INF] Now listening on: https://localhost:7284
+2024-08-02 13:43:05.940 +03:00 [INF] Now listening on: http://localhost:5023
+2024-08-02 13:43:05.943 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-02 13:43:05.944 +03:00 [INF] Hosting environment: Development
+2024-08-02 13:43:05.945 +03:00 [INF] Content root path: C:\Users\Lenovo\source\repos\NZWalks\NZWalks.API
+2024-08-02 13:43:06.688 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/swagger/index.html - null null
+2024-08-02 13:43:06.888 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/swagger/index.html - 200 null text/html;charset=utf-8 204.6695ms
+2024-08-02 13:43:06.936 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-02 13:43:06.938 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_vs/browserLink - null null
+2024-08-02 13:43:06.949 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 13.4953ms
+2024-08-02 13:43:06.982 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.9588ms
+2024-08-02 13:43:07.083 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/swagger/v1/swagger.json - null null
+2024-08-02 13:43:07.240 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 157.3861ms
+2024-08-02 13:43:14.355 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7284/api/walks/1CC5F2BC-FF4B-47C0-A475-1ADD56C6497B
+1CC5F2BC-FF4B-47C0-A475-1ADD56C6497B - null null
+2024-08-02 13:43:14.415 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7284/api/walks/1CC5F2BC-FF4B-47C0-A475-1ADD56C6497B
+1CC5F2BC-FF4B-47C0-A475-1ADD56C6497B - 404 0 null 60.2326ms
+2024-08-02 13:43:14.419 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7284/api/walks/1CC5F2BC-FF4B-47C0-A475-1ADD56C6497B%0A1CC5F2BC-FF4B-47C0-A475-1ADD56C6497B, Response status code: 404
+2024-08-02 13:43:32.288 +03:00 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-02 13:43:32.492 +03:00 [INF] Now listening on: https://localhost:7284
+2024-08-02 13:43:32.493 +03:00 [INF] Now listening on: http://localhost:5023
+2024-08-02 13:43:32.496 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-02 13:43:32.497 +03:00 [INF] Hosting environment: Development
+2024-08-02 13:43:32.497 +03:00 [INF] Content root path: C:\Users\Lenovo\source\repos\NZWalks\NZWalks.API
+2024-08-02 13:43:33.218 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/swagger/index.html - null null
+2024-08-02 13:43:33.428 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/swagger/index.html - 200 null text/html;charset=utf-8 215.1813ms
+2024-08-02 13:43:33.454 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-02 13:43:33.461 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 7.6648ms
+2024-08-02 13:43:33.471 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_vs/browserLink - null null
+2024-08-02 13:43:33.509 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.156ms
+2024-08-02 13:43:33.618 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/swagger/v1/swagger.json - null null
+2024-08-02 13:43:33.737 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 119.5191ms
+2024-08-02 13:43:54.704 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7284/api/walks/api/walks/1CC5F2BC-FF4B-47C0-A475-1ADD56C6497B
+1CC5F2BC-FF4B-47C0-A475-1ADD56C6497B - null null
+2024-08-02 13:43:54.758 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7284/api/walks/api/walks/1CC5F2BC-FF4B-47C0-A475-1ADD56C6497B
+1CC5F2BC-FF4B-47C0-A475-1ADD56C6497B - 404 0 null 53.8338ms
+2024-08-02 13:43:54.761 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7284/api/walks/api/walks/1CC5F2BC-FF4B-47C0-A475-1ADD56C6497B%0A1CC5F2BC-FF4B-47C0-A475-1ADD56C6497B, Response status code: 404

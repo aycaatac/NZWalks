@@ -1,0 +1,5 @@
+2024-08-02 13:42:26.948 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7284/api/walks/1CC5F2BC-FF4B-47C0-A475-1ADD56C6497B
+1CC5F2BC-FF4B-47C0-A475-1ADD56C6497B - null null
+2024-08-02 13:42:26.955 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7284/api/walks/1CC5F2BC-FF4B-47C0-A475-1ADD56C6497B
+1CC5F2BC-FF4B-47C0-A475-1ADD56C6497B - 404 0 null 10.004ms
+2024-08-02 13:42:26.957 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7284/api/walks/1CC5F2BC-FF4B-47C0-A475-1ADD56C6497B%0A1CC5F2BC-FF4B-47C0-A475-1ADD56C6497B, Response status code: 404

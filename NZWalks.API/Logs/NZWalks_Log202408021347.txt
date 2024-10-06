@@ -1,0 +1,14 @@
+2024-08-02 13:47:40.692 +03:00 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-02 13:47:40.909 +03:00 [INF] Now listening on: https://localhost:7284
+2024-08-02 13:47:40.910 +03:00 [INF] Now listening on: http://localhost:5023
+2024-08-02 13:47:40.913 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-02 13:47:40.913 +03:00 [INF] Hosting environment: Development
+2024-08-02 13:47:40.914 +03:00 [INF] Content root path: C:\Users\Lenovo\source\repos\NZWalks\NZWalks.API
+2024-08-02 13:47:41.612 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/swagger/index.html - null null
+2024-08-02 13:47:41.834 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/swagger/index.html - 200 null text/html;charset=utf-8 226.6176ms
+2024-08-02 13:47:41.882 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-02 13:47:41.885 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_vs/browserLink - null null
+2024-08-02 13:47:41.894 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 12.0092ms
+2024-08-02 13:47:41.922 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.8334ms
+2024-08-02 13:47:42.049 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/swagger/v1/swagger.json - null null
+2024-08-02 13:47:42.164 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 115.1256ms
